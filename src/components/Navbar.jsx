@@ -18,7 +18,7 @@ function Navbar() {
     <nav>
       <div className="wrapper">
         <div className="logo">
-          <Link to="/">Belajar React</Link>
+          <Link to="/">M4rz</Link>
         </div>
         <button onClick={tampilMenu}>
           {statusTampil == "" ? <FaBars /> : <IoMdClose />}
